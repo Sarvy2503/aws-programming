@@ -13,8 +13,6 @@ import java.io.IOException;
 
 public class AwsDownloadClient {
 
-    //ref : https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3-objects.html
-
     public static void downloadObject(AmazonS3 s3Client, String bucketName, String objectName, String output)
     {
         try {
