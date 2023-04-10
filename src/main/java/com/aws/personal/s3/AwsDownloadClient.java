@@ -37,6 +37,5 @@ public class AwsDownloadClient {
             System.exit(1);
         }
         System.out.println("Done!");
-
     }
 }
