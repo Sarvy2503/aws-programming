@@ -10,6 +10,4 @@ public class AwsS3CreateNewBucket {
         Bucket newBucket = s3Client.createBucket(bucketName);
         System.out.println("Bucket created successfully : "+newBucket.getName());
     }
-
-
 }
