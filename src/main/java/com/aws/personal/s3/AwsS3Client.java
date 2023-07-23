@@ -23,6 +23,5 @@ public class AwsS3Client {
         //download
         AwsDownloadClient.downloadObject(s3Client, Constants.BUCKET_NAME,
                 "glue-output-skills-matching-java/run-1678079287030-part-r-00000", "glue-etl_output_skill_matching_java");
-
     }
 }
